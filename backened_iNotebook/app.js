@@ -7,8 +7,7 @@ const loginRoute = require("./router_modules/login.js");
 const userNoteRoute = require("./router_modules/userNotes.js");
 const app = express();
 app.use(cors({
-    origin:'*',
-    credentials:true
+    origin:'*'
 }));
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
