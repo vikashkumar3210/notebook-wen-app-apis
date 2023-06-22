@@ -11,9 +11,9 @@ router.route("/signup")
 
    })
    //data validation of user
-   .post([check("name", "Enter a valid name").isLength({ min: 10 }),
+   .post([check("name", "Enter a valid name").isLength({ min: 1 }),
    check("email", "Enter a valid email").isEmail(),
-   check("password", "Enter a valid password").isLength({ min: 10, max: 40 })
+   check("password", "Enter a valid password").isLength({ min: 1 })
    ],
       async (req, res) => {
          try {
