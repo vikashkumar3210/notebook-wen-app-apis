@@ -6,9 +6,9 @@ This is my first fullstack web app . I have given name to my project called iNot
 
 # <span style="color:blue">About Website!</span>
 iNotbook is a web app where user can create ,read ,store and delete note from database.<br>
-Features:<br.
+Features:<br>.
 1.User can register and sign in .<br>
-2.User can add note , read and delete.,br.
+2.User can add note , read and delete.<br>
 3. It is responsive UI<br>
 
 # <span style="color:blue">Tech Stack used:</span>
